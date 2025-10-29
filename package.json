@@ -1,0 +1,40 @@
+{
+  "name": "task-consolidator",
+  "version": "1.0.0",
+  "description": "Consolidate notifications and tasks from GitHub, Slack, and other sources directly into Things 3 or other sources",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "tc": "./dist/index.js",
+    "task-consolidator": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bradley-pettman@github.com/bradley-pettman/task-consolidator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradley-pettman/task-consolidator/issues"
+  },
+  "homepage": "https://github.com/bradley-pettman/task-consolidator#readme",
+  "devDependencies": {
+    "@types/commander": "^2.12.0",
+    "@types/node": "^24.9.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@octokit/rest": "^22.0.0",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.2",
+    "dotenv": "^17.2.3"
+  }
+}

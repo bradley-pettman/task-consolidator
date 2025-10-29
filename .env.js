@@ -1,0 +1,4 @@
+# GitHub Configuration
+GITHUB_TOKEN=your_github_personal_access_token_here
+GITHUB_ORG=your_organization_name
+GITHUB_USERNAME=your_github_username
